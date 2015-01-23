@@ -1,0 +1,102 @@
+html{
+  background-color:#dbd6cf;
+
+  color: #000;
+}
+
+h1{
+  color: #7f7775;
+  font-weight: normal;
+  font-size: 2rem;
+  line-height:1 ;
+  text-align: left;
+  font-family: 'Bevan', cursive;
+}
+
+h2 {
+  color: #7f7775;
+  font-weight: normal;
+  font-size:1rem;
+  line-height:1 ;
+  text-align: left;
+  font-family:'Bevan', cursive;
+}
+
+ul{
+
+  list-style-type:none;
+}
+
+p {
+
+  font-style:normal;
+  text-decoration: none;/*underline,none, line-through, */
+  text-align:left; /*left, center, righ, justify*/
+  font-family:arial,sans-serif;
+
+
+
+}
+
+ol{
+  list-style-type:none; /*decimal,lower-alpha,circle,
+  lower-roman,upper-alpha,square,disc, none  */
+  padding: 0;
+
+}
+
+h1+ul{
+  list-style-type:none;
+  padding:0;
+
+}
+
+h2+ul{list-style-type:lower-roman;
+
+
+}
+
+.quote{
+  font-style:italic;
+  font-size:1rem;
+  text-aling:left;
+  padding:40;
+
+  }
+
+.name{
+
+  font-style:italic;
+  font-size:0.25rem;
+  text-align: right;
+  color: #b3b1ad;
+
+}
+
+.marscaption{
+
+  font-style:italic;
+  font-size:.25rem;
+}
+
+.venuscaption{
+
+  font-style:italic;
+  font-size:.25rem;
+}
+
+ul{
+
+  list-style-type:circle;
+}
+
+
+a {
+
+  color: #000000;
+
+}
+
+a:hover {
+  color:#d85131;
+}
