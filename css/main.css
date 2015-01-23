@@ -17,9 +17,20 @@ h2 {
   color: #7f7775;
   font-weight: normal;
   font-size:1rem;
+  line-height:1.5 ;
+  text-align: left;
+  font-family:'Bevan', cursive;
+}
+
+h3 {
+  color: #7f7775;
+  font-weight: normal;
+  font-size:1rem;
   line-height:1 ;
   text-align: left;
   font-family:'Bevan', cursive;
+
+
 }
 
 ul{
@@ -58,7 +69,7 @@ h2+ul{list-style-type:lower-roman;
 
 .quote{
   font-style:italic;
-  font-size:1rem;
+  font-size:1.5rem;
   text-aling:left;
   padding:40;
 
@@ -69,7 +80,7 @@ h2+ul{list-style-type:lower-roman;
   font-style:italic;
   font-size:0.25rem;
   text-align: right;
-  color: #b3b1ad;
+  color: #8a8884;
 
 }
 
@@ -90,13 +101,30 @@ ul{
   list-style-type:circle;
 }
 
+.v, .m {
+  list-style-type:circle;
+}
 
 a {
 
-  color: #000000;
+  color: #822813;
 
 }
 
+
+dt{
+  font-weight:bold;
+}
 a:hover {
   color:#d85131;
+}
+
+i.cel {
+  color:#a19997;
+  font-weight:normal;
+}
+
+i.round {
+  color:#a19997;
+  font-weight:normal;
 }
